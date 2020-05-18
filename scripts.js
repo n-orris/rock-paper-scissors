@@ -49,11 +49,11 @@ function game(ps, num) {
         playRound(ps, computerPlay())
     }
     if (playerscore > compscore) {
-        console.log(`You win with a score of ${playerscore} to ${compscore}`)
+        alert(`You win with a score of ${playerscore} to ${compscore}`)
     } else if (playerscore < compscore) {
-        console.log(`You Lose with a score of ${playerscore} to ${compscore}`)
+        alert(`You Lose with a score of ${playerscore} to ${compscore}`)
     } else {
-        console.log(`Tie game with a your score ${playerscore} and computer's score ${compscore}`)
+        alert(`Tie game with a your score ${playerscore} and computer's score ${compscore}`)
     }
 }
 game(playerSelection,num);
